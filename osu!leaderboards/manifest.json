@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "osu!game Opener",
+  "version": "1.0",
+  "description": "Opens osu!game website with Ctrl+Period.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-osu-game": {
+      "suggested_key": {
+        "default": "Ctrl+Period"
+      },
+      "description": "Open osu!game website"
+    }
+  }
+}
